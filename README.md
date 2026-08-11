@@ -69,6 +69,6 @@ A Power BI dashboard project designed to analyze retail sales data and provide u
 
 These projects are created for learning, portfolio development, and demonstrating practical data analytics skills.
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 The stock market prediction project is for educational and portfolio purposes only. Stock-price predictions are uncertain and should not be considered financial advice or a recommendation to buy or sell securities.
