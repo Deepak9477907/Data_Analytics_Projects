@@ -1,0 +1,14 @@
+# Power BI Measures
+
+Total Sales = SUM(Superstore[Sales])
+Total Profit = SUM(Superstore[Profit])
+Total Quantity = SUM(Superstore[Quantity])
+Total Orders = DISTINCTCOUNT(Superstore[Order ID])
+Total Customers = DISTINCTCOUNT(Superstore[Customer ID])
+Average Discount = AVERAGE(Superstore[Discount])
+Profit Margin % = DIVIDE([Total Profit], [Total Sales], 0)
+
+## Dashboard
+Page 1: KPI cards + monthly sales trend + sales/profit by region + category + slicers.
+Page 2: Top/bottom products + category/sub-category hierarchy + sales vs profit.
+Page 3: Region + customer segment + shipping mode analysis.
